@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: #2d3c49;
+}
+
+.top {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #7d97ad;
+}
+
+#my-pic > img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.social-icons {
+    font-size: 20px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.social-icons:hover {
+    color: #02b3e4;
+    cursor: pointer;
+}
+
+.small-nav {
+    font-size: 20px;
+}
+
+.middle {
+    background-image: url(../img/header-bg.jpeg);
+    color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-muted {
+    color: #2d3c49;
+}
+
+.card-img-overlay {
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(2, 179, 228, 0.48);
+    border-radius: 4px;
+    color: #2d3c49;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #my-pic, #my-infos {
+        text-align: center !important;
+    }
+}
